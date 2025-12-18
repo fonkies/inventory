@@ -7,6 +7,11 @@ public class ConflictException extends RuntimeException {
         super(message);
         this.code = code;
     }
+    public ConflictException(String message) {
+        super(message);
+        this.code = "CONFLICT";  // 기본 코드
+    }
+
 
     public String getCode() {
         return code;
