@@ -1,4 +1,4 @@
-package com.hajun.inventory.common.exception;
+package com.hajun.inventory.global.exception;
 
 public class ConflictException extends RuntimeException {
     private final String code;

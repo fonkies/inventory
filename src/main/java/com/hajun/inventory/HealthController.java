@@ -1,6 +1,6 @@
 package com.hajun.inventory;
 
-import com.hajun.inventory.common.exception.ConflictException;
+import com.hajun.inventory.global.exception.ConflictException;
 import com.hajun.inventory.common.exception.NotFoundException;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

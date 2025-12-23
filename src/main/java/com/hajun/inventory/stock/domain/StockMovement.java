@@ -37,18 +37,17 @@ public class StockMovement {
     @Column(nullable = false)
     private LocalDateTime occurredAt;
 
-    public static StockMovement of(
-            Item item,
-            Warehouse warehouse,
-            StockMovementType type,
-            long quantity
-    ) {
+    public static StockMovement of(Item item, Warehouse warehouse, StockMovementType type, long deltaQty) {
+        if (deltaQty == 0) throw new IllegalArgumentException("deltaQty must not be zero");
+
         StockMovement m = new StockMovement();
         m.item = item;
         m.warehouse = warehouse;
         m.type = type;
-        m.quantity = quantity;
+        m.quantity = deltaQty;          // 부호 포함 변화량
         m.occurredAt = LocalDateTime.now();
         return m;
     }
+
+
 }

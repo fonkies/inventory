@@ -1,6 +1,5 @@
 package com.hajun.inventory.global.exception;
 
-import com.hajun.inventory.common.exception.ConflictException;
 import com.hajun.inventory.common.exception.NotFoundException;
 import com.hajun.inventory.global.response.ErrorResponse;
 import org.springframework.http.HttpStatus;

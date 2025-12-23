@@ -2,7 +2,7 @@ package com.hajun.inventory.stock.dto;
 
 import com.hajun.inventory.stock.domain.StockMovement;
 import com.hajun.inventory.stock.domain.StockMovementType;
-import com.hajun.inventory.stock.dto.StockMovementResponse;
+
 import java.time.LocalDateTime;
 
 public record StockMovementResponse(

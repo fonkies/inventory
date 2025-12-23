@@ -1,6 +1,6 @@
 package com.hajun.inventory.warehouse.service;
 
-import com.hajun.inventory.common.exception.ConflictException;
+import com.hajun.inventory.global.exception.ConflictException;
 import com.hajun.inventory.common.exception.NotFoundException;
 import com.hajun.inventory.warehouse.domain.Warehouse;
 import com.hajun.inventory.warehouse.dto.WarehouseCreateRequest;

@@ -1,6 +1,6 @@
 package com.hajun.inventory.item.service;
 
-import com.hajun.inventory.common.exception.ConflictException;
+import com.hajun.inventory.global.exception.ConflictException;
 import com.hajun.inventory.common.exception.NotFoundException;
 import com.hajun.inventory.item.domain.Item;
 import com.hajun.inventory.item.dto.ItemCreateRequest;
