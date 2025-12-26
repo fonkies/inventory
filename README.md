@@ -85,6 +85,16 @@ Swagger UI: `http://localhost:8080/swagger-ui/index.html`
 - movements 페이징/정렬
 - 인증/권한(관리자/사용자)
 
+## Screenshots
+
+### Swagger API
+![Swagger Overview](docs/swagger-overview.png)
+![Swagger OUT 409](docs/swagger-out-409.png)
+
+### Tests
+![Tests](docs/tests-success.png)
+
+
 ---
 
 # Inventory API (v1.0.0) - 日本語
@@ -171,6 +181,15 @@ Swagger UI: `http://localhost:8080/swagger-ui/index.html`
 - 現在在庫の取得 API（StockBalance 조회）
 - 在庫履歴のページング・ソート
 - 認証／権限管理（管理者・ユーザー）
+
+## Screenshots
+
+### Swagger API
+![Swagger Overview](docs/swagger-overview.png)
+![Swagger OUT 409](docs/swagger-out-409.png)
+
+### Tests
+![Tests](docs/tests-success.png)
 
 ---
 
