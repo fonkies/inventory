@@ -1,3 +1,5 @@
+![CI](https://github.com/fonkies/inventory/actions/workflows/ci.yml/badge.svg)
+
 # Inventory API (v1.0.0)
 
 Spring Boot で実装した在庫管理 REST API。  
