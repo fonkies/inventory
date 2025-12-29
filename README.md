@@ -69,6 +69,9 @@ Swagger UI: `http://localhost:8080/swagger-ui/index.html`
 {"code":"INSUFFICIENT_STOCK","message":"Insufficient stock."}
 ```
 ---
+## Prerequisites
+- Java 17（Temurin 推奨）
+- 外部DB不要（H2 in-memory を使用）
 
 #### How to Run
 ```bash
@@ -166,6 +169,9 @@ Swagger UI: `http://localhost:8080/swagger-ui/index.html`
 {"code":"INSUFFICIENT_STOCK","message":"Insufficient stock."}
 ```
 ---
+## Prerequisites
+- Java 17（Temurin 推奨）
+- 外部DB不要（H2 in-memory を使用）
 
 #### How to Run
 ```bash
